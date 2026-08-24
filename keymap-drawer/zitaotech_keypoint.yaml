@@ -48,7 +48,7 @@ layers:
   - LALT
   - MUTE
   - {t: LANG2, h: LGUI}
-  - SPACE
+  - RAISE
   - LOWER
   - LOWER
   - SPACE
@@ -114,8 +114,63 @@ layers:
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  RAISE: [ESC, F1, UP, F3, F4, F5, F6, F7, F8, F9, F10, '', CAPS, LEFT, DOWN, RIGHT, '', '', '', '', F11, F12, '', '', '', '', LSHFT, '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', LCTRL, LGUI, '', '', RAISE, '', '', '', '', RAISE, '', '', '', '']
+  RAISE:
+  - ESC
+  - F1
+  - UP
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - ''
+  - CAPS
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - F11
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - LSHFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LCTRL
+  - LGUI
+  - ''
+  - ''
+  - RAISE
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - RAISE
+  - ''
+  - ''
+  - ''
+  - ''
   MOUSE:
   - TAB
   - Q
