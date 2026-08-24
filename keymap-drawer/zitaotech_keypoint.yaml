@@ -52,7 +52,7 @@ layers:
   - LOWER
   - LOWER
   - SPACE
-  - {t: LANG2, h: LGUI}
+  - {t: LANG1, h: LGUI}
   - MUTE
   - '-'
   - '='
